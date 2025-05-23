@@ -4,6 +4,7 @@ const env = require("dotenv").config()
 
 
 app.get('/',(req,res)=>{
+    console.log('im in...')
     res.end('We started the project')
 })
 
